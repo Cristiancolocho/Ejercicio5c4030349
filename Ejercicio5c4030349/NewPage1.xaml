@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio5c4030349.NewPage1"
+             Title="NewPage1">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
+        <Entry x:Name="Altura" Placeholder="Escriba la altura"/>
+        <Entry x:Name="Base" Placeholder="Esccriba la base"/>
+        <Entry x:Name="Result" Placeholder="calcula el perímetro"/>
+        <Entry x:Name="Result2" Placeholder="calcula la superficie"/>
+
+
+        <Button Text="Calcular" Clicked="Button_Clicked_2"/>
+
+    </VerticalStackLayout>
+</ContentPage>
